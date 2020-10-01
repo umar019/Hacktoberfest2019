@@ -338,4 +338,9 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "git config --global alias.please 'push --force-with-lease'",
+     "description": "it does not allow to overwrite history in server so it forces it heavy handed "
+  
+  }
 ]
